@@ -1,0 +1,60 @@
+button, .cl-action {
+  display: inline-flex;
+  flex-direction: row;
+  align-items: center;
+  column-gap: 1ch;
+  box-sizing: border-box;
+  padding: .5em;
+  font-weight: 700;
+}
+
+input[type=number], .cl-number {
+  display: inline-block;
+  box-sizing: border-box;
+  text-align: right;
+  font-family: var(--app-font-monospace);
+  font-size: inherit;
+  cursor: pointer;
+}
+
+.app-cmp-input-title::after {
+  content: "::";
+  color: var(--app-primary-color);
+  font-weight: bold;
+  margin-left: auto;
+  margin-right: 1ch;
+}
+
+.app-cmp-input-no {
+  display: inline-flex;
+  flex-direction: row;
+  width: 3ch;
+  margin-inline: 1ch;
+}
+
+.app-cmp-input,
+.app-cmp-result {
+  flex: 1 0 auto;
+}
+
+.app-cmp-input-title {
+  display: inline-flex;
+  flex-direction: row;
+  align-items: center;
+  width: 19.9ch;
+}
+
+.app-cmp-result {
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-right: 2ch;
+  height: 42px;
+  text-decoration: underline solid currentColor 3px;
+}
+
+.app-cmp-input {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 5px;
+}

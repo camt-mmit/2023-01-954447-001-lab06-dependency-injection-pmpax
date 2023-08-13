@@ -1,0 +1,71 @@
+header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  column-gap: 1ch;
+  padding: 1em 0;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  background-color: #fff;
+  border-bottom: 1px solid #000000;
+}
+
+.section-cointainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.input-cointainer {
+  display: flex;
+  box-sizing: border-box;
+  flex-direction: column;
+  padding: 1em 1em 0;
+}
+
+.cmp-section-title {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  column-gap: 1ch;
+  padding: 1em 0;
+  position: sticky;
+  border-bottom: 1px solid #000000;
+  justify-content: space-between;
+}
+
+.cmp-section-title-list {
+  flex: 1 0 auto;
+}
+
+.app-cmp-section-container-border {
+  border: 1px solid #000000;
+  border-radius: 3ch;
+  margin: 1% 10%;
+  padding: 1ch;
+}
+
+.disabled-button {
+  opacity: 0.25;
+  pointer-events: none;
+}
+
+.app-cmp-input {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 5px;
+}
+
+.cmp-actions-bar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  column-gap: 1ch;
+  padding: 1em 0;
+}
+
+.cmp-sections-list {
+  flex: 1 0 auto;
+}
